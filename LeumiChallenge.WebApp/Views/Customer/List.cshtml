@@ -1,0 +1,40 @@
+﻿@model PagedList<CustomerViewModel>
+
+@{
+    ViewData["Title"] = "Customers";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Messages</th>
+                    </tr>
+                </thead>
+                <tbody id="customers-list">
+                    @foreach (var customer in this.Model)
+                    {
+                        <tr id="customer-@customer.Id" style="cursor:pointer;">
+                            <td>@customer.FirstName</td>
+                            <td>@customer.LastName</td>
+                            <td>@customer.Messages.Count</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <environment include="Development">
+        <script src="~/js/customer.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/js/customer.min.js" asp-append-version="true"></script>
+    </environment>
+}
