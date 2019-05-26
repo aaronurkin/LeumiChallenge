@@ -17,6 +17,10 @@ namespace LeumiChallenge.Common
 
 		public bool HasNextPage => this.Page < this.TotalPages;
 
+		public PagedList()
+		{
+		}
+
 		public PagedList(IQueryable<T> items, int page, int entries)
 			: this(items.PageEntries(page, entries), items?.Count(), page, entries)
 		{

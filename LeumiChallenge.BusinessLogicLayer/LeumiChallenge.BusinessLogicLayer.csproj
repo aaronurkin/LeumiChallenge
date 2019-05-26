@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeumiChallenge.Common\LeumiChallenge.Common.csproj" />
+    <ProjectReference Include="..\LeumiChallenge.DataAccessLayer\LeumiChallenge.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+</Project>

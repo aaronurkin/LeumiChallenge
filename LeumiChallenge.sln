@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeumiChallenge.Common", "LeumiChallenge.Common\LeumiChallenge.Common.csproj", "{019667A1-27CC-4336-BC19-2FC818889A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeumiChallenge.Common.Tests", "LeumiChallenge.Common.Tests\LeumiChallenge.Common.Tests.csproj", "{E301CA31-74E4-468C-91BB-479BF004D670}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeumiChallenge.Common.Tests", "LeumiChallenge.Common.Tests\LeumiChallenge.Common.Tests.csproj", "{E301CA31-74E4-468C-91BB-479BF004D670}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeumiChallenge.DataAccessLayer", "LeumiChallenge.DataAccessLayer\LeumiChallenge.DataAccessLayer.csproj", "{E8BFF935-339B-4FDA-8237-112EAC7AE3C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeumiChallenge.DataAccessLayer", "LeumiChallenge.DataAccessLayer\LeumiChallenge.DataAccessLayer.csproj", "{E8BFF935-339B-4FDA-8237-112EAC7AE3C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeumiChallenge.DataAccessLayer.Tests", "LeumiChallenge.DataAccessLayer.Tests\LeumiChallenge.DataAccessLayer.Tests.csproj", "{AF7CDAEB-3997-497D-A3BA-61616DA56706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeumiChallenge.DataAccessLayer.Tests", "LeumiChallenge.DataAccessLayer.Tests\LeumiChallenge.DataAccessLayer.Tests.csproj", "{AF7CDAEB-3997-497D-A3BA-61616DA56706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeumiChallenge.BusinessLogicLayer", "LeumiChallenge.BusinessLogicLayer\LeumiChallenge.BusinessLogicLayer.csproj", "{848FADBF-F0EC-42E9-9DAD-6687FCAF7C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AF7CDAEB-3997-497D-A3BA-61616DA56706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF7CDAEB-3997-497D-A3BA-61616DA56706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF7CDAEB-3997-497D-A3BA-61616DA56706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848FADBF-F0EC-42E9-9DAD-6687FCAF7C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848FADBF-F0EC-42E9-9DAD-6687FCAF7C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848FADBF-F0EC-42E9-9DAD-6687FCAF7C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848FADBF-F0EC-42E9-9DAD-6687FCAF7C9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
